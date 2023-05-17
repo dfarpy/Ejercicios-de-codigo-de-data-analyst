@@ -11,7 +11,7 @@ def millions_and_thousands_formatter(x, pos):
     else:
         return f'{x:.0f}'
 
-df = pd.read_csv('C:/Users/danie/Desktop/PROYECTO DATA/dataset.csv')
+df = pd.read_csv('dataset.csv')
 datasets = {
     'Male': df['Male'],
     'Female': df['Female']
